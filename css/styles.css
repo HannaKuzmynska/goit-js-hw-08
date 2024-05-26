@@ -1,0 +1,31 @@
+
+.gallery {
+display: flex;
+list-style-type: none;
+justify-content: flex-start;
+align-items: flex-start;
+flex-wrap: wrap;
+gap: 24px;
+}
+
+.gallery-item {
+    height: 300px;
+    width: 360px;
+    box-sizing: border-box;
+   
+}
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.gallery-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;}
